@@ -2,8 +2,8 @@ const colors = require('colors');
 const log = require('../log');
 
 async function run(bot, message, args, discord, moment) {
-    //zordem //t0ru
-    if (["271717634297298945", "203841691071807488"].includes(message.author.id)) {
+    //t0ru //near
+    if (["203841691071807488", "611290610254610514"].includes(message.author.id)) {
         try {
             switch (args[0]) {
                 case "commands":
