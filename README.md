@@ -17,6 +17,7 @@
   * Add Reactions
 - Copy the bots token and insert it [here](bot\discord\data\config.json "config.json")
     > _you should never share this token as it gives the holder full access over your (public) bot_
+- Also add the same ip as the ESP module will connect to. This is important for our HTML POST Requests to work.
 
 ## Node.js(https://nodejs.org/dist/v14.17.3/)
 -----------------------------------------------
