@@ -1,5 +1,5 @@
+const moment = require('moment');
 const colors = require('colors');
-const log = require('../log');
 
 async function run(bot, message, args, discord, moment) {
     //t0ru //near
@@ -7,30 +7,30 @@ async function run(bot, message, args, discord, moment) {
         try {
             switch (args[0]) {
                 case "commands":
-                    bot.commands.clear()
-                    bot.aliases.clear()
-                    log.log_date_time(`HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands!`.red);
-                    bot.functions.load_commands()
-                    message.channel.send("All commands successfully reloaded.");
+                    discord_bot.commands.clear()
+                    discord_bot.aliases.clear()
+                    console.log(`[${moment().format('DD/MM/YY HH:mm')}]`.italic.yellow + ` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands!`.red);
+                    discord_bot.functions.load_commands()
+                    message.channel.send("All commands successfully reloaded.")
                     break;
                 case "events":
-                    bot.removeAllListeners();
-                    log.log_date_time(` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded events!`.red);
-                    bot.functions.load_events()
-                    message.channel.send("All events successfully reloaded.");
+                    discord_bot.removeAllListeners();
+                    console.log(`[${moment().format('DD/MM/YY HH:mm')}]`.italic.yellow + ` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded events!`.red);
+                    discord_bot.functions.load_events()
+                    message.channel.send("All events successfully reloaded.")
                     break;
                 case "all":
-                    bot.commands.clear()
-                    bot.aliases.clear()
-                    log.log_date_time(` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands and events!`.red);
-                    bot.functions.load_commands()
+                    discord_bot.commands.clear()
+                    discord_bot.aliases.clear()
+                    console.log(`[${moment().format('DD/MM/YY HH:mm')}]`.italic.yellow + ` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands and events!`.red);
+                    discord_bot.functions.load_commands()
                     message.channel.send("All commands successfully reloaded.")
-                    bot.removeAllListeners();
-                    bot.functions.load_events()
+                    discord_bot.removeAllListeners();
+                    discord_bot.functions.load_events()
                     message.channel.send("All events successfully reloaded.")
                     break;
                 default:
-                    message.channel.send("No category defined.\n`Usage: " + bot.cache.configs.cfg.prefix + "reload [commands/events/all]`")
+                    message.channel.send("No category defined. Usage: " + discord_bot.cache.configs.discord.prefix + "settings [commands/events/all]")
                     break;
             }
         } catch (e) {
@@ -38,17 +38,18 @@ async function run(bot, message, args, discord, moment) {
                 .setTitle("error!")
                 .setDescription("Oops! An error occured!")
                 .addField("error", `\`\`\`js\n${e}\n\`\`\``)
-                .setColor("#FF0000")
+                .setColor("#34363C")
             message.channel.send(e1);
         }
     } else {
         let e2 = new discord.MessageEmbed()
             .setTitle("error!")
             .setDescription("Oops! An error occured!\nYou don't have enough permissions to perform this command.")
-            .setColor("#FF0000")
+            .setColor("#34363C")
         message.channel.send(e2);
     }
 };
+
 module.exports = {
     config: {
         name: "reload",
