@@ -1,6 +1,6 @@
 # MCT-SS2021
 
-## Requiries
+## Requirements
 
 
 ## Setting up a Discord Application
@@ -18,5 +18,13 @@
 - Copy the bots token and insert it [here](bot\discord\data\config.json "config.json")
     > _you should never share this token as it gives the holder full access over your (public) bot_
 
-
-## 
+## Node.js(https://nodejs.org/dist/v14.17.3/)
+-----------------------------------------------
+- install Node.js v14.17.3(https://nodejs.org/dist/v14.17.3/) (latest LTS)
+- in PowerShell: 
+  * run "npm i moment"
+  * run "npm i discord.js"
+  * run "npm i colors"
+  * run "npm i node-fetch"
+  * run "node index.js" in the "bot" folder of this repository
+ 
