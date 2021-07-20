@@ -1,2 +1,2 @@
- bot/node_modules/
- cfg.json
+bot/node_modules/*
+bot/discord/data/cfg.json
