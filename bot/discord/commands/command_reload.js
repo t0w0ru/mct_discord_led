@@ -1,0 +1,60 @@
+const colors = require('colors');
+const log = require('../log');
+
+async function run(bot, message, args, discord, moment) {
+    //zordem //t0ru
+    if (["271717634297298945", "203841691071807488"].includes(message.author.id)) {
+        try {
+            switch (args[0]) {
+                case "commands":
+                    bot.commands.clear()
+                    bot.aliases.clear()
+                    log.log_date_time(`HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands!`.red);
+                    bot.functions.load_commands()
+                    message.channel.send("All commands successfully reloaded.");
+                    break;
+                case "events":
+                    bot.removeAllListeners();
+                    log.log_date_time(` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded events!`.red);
+                    bot.functions.load_events()
+                    message.channel.send("All events successfully reloaded.");
+                    break;
+                case "all":
+                    bot.commands.clear()
+                    bot.aliases.clear()
+                    log.log_date_time(` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands and events!`.red);
+                    bot.functions.load_commands()
+                    message.channel.send("All commands successfully reloaded.")
+                    bot.removeAllListeners();
+                    bot.functions.load_events()
+                    message.channel.send("All events successfully reloaded.")
+                    break;
+                default:
+                    message.channel.send("No category defined.\n`Usage: " + bot.cache.configs.cfg.prefix + "reload [commands/events/all]`")
+                    break;
+            }
+        } catch (e) {
+            let e1 = new discord.MessageEmbed()
+                .setTitle("error!")
+                .setDescription("Oops! An error occured!")
+                .addField("error", `\`\`\`js\n${e}\n\`\`\``)
+                .setColor("#FF0000")
+            message.channel.send(e1);
+        }
+    } else {
+        let e2 = new discord.MessageEmbed()
+            .setTitle("error!")
+            .setDescription("Oops! An error occured!\nYou don't have enough permissions to perform this command.")
+            .setColor("#FF0000")
+        message.channel.send(e2);
+    }
+};
+module.exports = {
+    config: {
+        name: "reload",
+        aliases: [],
+        channel: [],
+        enabled: true
+    },
+    run: run
+};
