@@ -1,8 +1,9 @@
 const moment = require('moment');
 const colors = require('colors');
 
-async function run(discord_bot, message, args, discord, moment) {
-    if (["203841691071807488", "203841691071807488"].includes(message.author.id)) {
+async function run(bot, message, args, discord, moment) {
+    //t0ru //near
+    if (["203841691071807488", "611290610254610514"].includes(message.author.id)) {
         try {
             switch (args[0]) {
                 case "commands":
