@@ -1,2 +1,3 @@
-bot/node_modules/*
+node_modules/*
 bot/discord/data/cfg.json
+node_modules/asynckit/lib/readable_parallel.js

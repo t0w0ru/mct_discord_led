@@ -1,5 +1,6 @@
 const moment = require('moment');
 const colors = require('colors');
+const log = require('../log.js');
 
 async function run(bot, message, args, discord, moment) {
     //t0ru //near
@@ -9,20 +10,20 @@ async function run(bot, message, args, discord, moment) {
                 case "commands":
                     bot.commands.clear()
                     bot.aliases.clear()
-                    console.log(`[${moment().format('DD/MM/YY HH:mm')}]`.italic.yellow + ` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands!`.red);
+                    log.log_date_time(` HANDLER `.blue + `${message.author.tag}`.grey + ` reloaded commands!`.red);
                     bot.functions.load_commands()
                     message.channel.send("All commands successfully reloaded.")
                     break;
                 case "events":
                     bot.removeAllListeners();
-                    console.log(`[${moment().format('DD/MM/YY HH:mm')}]`.italic.yellow + ` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded events!`.red);
+                    log.log_date_time(` HANDLER `.blue + `${message.author.tag}`.grey + ` reloaded events!`.red);
                     bot.functions.load_events()
                     message.channel.send("All events successfully reloaded.")
                     break;
                 case "all":
                     bot.commands.clear()
                     bot.aliases.clear()
-                    console.log(`[${moment().format('DD/MM/YY HH:mm')}]`.italic.yellow + ` HANDLER `.magenta + `${message.author.tag}`.grey + ` reloaded commands and events!`.red);
+                    log.log_date_time(` HANDLER `.blue + `${message.author.tag}`.grey + ` reloaded commands and events!`.red);
                     bot.functions.load_commands()
                     message.channel.send("All commands successfully reloaded.")
                     bot.removeAllListeners();

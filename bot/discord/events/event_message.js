@@ -27,7 +27,7 @@ async function run(bot, message) {
 
     if (command) {
         if (command.config.enabled) {
-            log.log_date_time(` HANDLER `.magenta + `${message.author.tag}`.grey + ` called command `.green + `${command.config.name}`.grey)
+            log.log_date_time(` HANDLER `.blue + `${message.author.tag}`.grey + ` called command `.green + `${command.config.name}`.grey)
             command.run(bot, message, args, discord, moment);
 
         } else if (command.config.enabled == false) {
