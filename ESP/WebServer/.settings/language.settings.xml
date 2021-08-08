@@ -1,0 +1,2011 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+	<configuration id="cdt.managedbuild.toolchain.gnu.cross.base.1679651776" name="Default">
+		<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+			<provider copy-of="extension" id="org.eclipse.cdt.ui.UserLanguageSettingsProvider"/>
+			<provider-reference id="org.eclipse.cdt.core.ReferencedProjectsLanguageSettingsProvider" ref="shared-provider"/>
+			<provider class="org.eclipse.cdt.managedbuilder.language.settings.providers.GCCBuildCommandParser" id="org.eclipse.cdt.managedbuilder.core.GCCBuildCommandParser" keep-relative-paths="true" name="CDT GCC Build Output Parser" parameter="xtensa-lx106-elf-(gcc|g\+\+)" prefer-non-shared="true" resource-scope="per-project" store-entries-with-project="true">
+				<language id="org.eclipse.cdt.core.g++">
+					<resource project-relative-path="src/util/yahal_String.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/platform/esp8266"/>
+						<entry kind="includePath" name="~/git/YAHAL/include/interface"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/driver"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/task"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/util"/>
+						<entry kind="includePath" name="/home/student/mct_workspace/ArduinoJson-6.x/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="."/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="MMU_ICACHE_SIZE" value="0x8000"/>
+						<entry kind="macro" name="MMU_IRAM_SIZE" value="0x8000"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/ina219_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/util/posix_io.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_12x16.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="WebServer_esp8266.ino">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="."/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src"/>
+						<entry kind="includeFile" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266/Arduino.h"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="MMU_ICACHE_SIZE" value="0x8000"/>
+						<entry kind="macro" name="MMU_IRAM_SIZE" value="0x8000"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_32x53.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/FatFs/ffsystem.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/mcp23s17_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_10x16.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/platform/esp8266/adc_esp8266.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/util/std_io.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_12x20.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/soft_i2c_slave_states.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_8x12.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_7x12.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/platform/esp8266/gpio_esp8266.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="build/buildinfo.c++">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="."/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="MMU_ICACHE_SIZE" value="0x8000"/>
+						<entry kind="macro" name="MMU_IRAM_SIZE" value="0x8000"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/uGUI.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_6x8.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/sd_spi_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/st7735s_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/task/task.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/util/cpp_support.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/platform/esp8266/timer_esp8266.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/soft_i2c_master.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_5x12.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_16x20.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/bme280_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/opt3001_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_6x10.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_8x8.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/soft_i2c_slave.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/ssd2119_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_22x36.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_8x14.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/FatFs/ffunicode.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/gp2y1010au0f_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_5x8.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/FatFs/ff.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_4x6.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/sharp96_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/uGUI/fonts/font_24x40.cpp">
+						<entry kind="includePath" name="include/platform/esp8266"/>
+						<entry kind="includePath" name="include/interface"/>
+						<entry kind="includePath" name="src/platform/esp8266"/>
+						<entry kind="includePath" name="src/driver"/>
+						<entry kind="includePath" name="src/task"/>
+						<entry kind="includePath" name="src/util"/>
+						<entry kind="includePath" name="src/uGUI"/>
+						<entry kind="includePath" name="src/uGUI/fonts"/>
+						<entry kind="includePath" name="src/FatFs"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/variants/generic"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="macro" name="ARDUINO" value="10808"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="ICACHE_FLASH" value="1"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="macro" name="__STRICT_ANSI__" value="">
+							<flag value="UNDEFINED"/>
+						</entry>
+						<entry kind="macro" name="__ets__" value="1"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/2.5.0-4-b40a506/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+					<resource project-relative-path="src/driver/cy8x95xxa_drv.cpp">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/examples/FSBrowser/extras/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/uri/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include/"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/esp8266/AccessPoint_esp8266/build/ld_h/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_esp8266/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432+wifiTick/example_boostxl_audio_web_radio_msp432/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_boostxl_audio_mp3_player/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_edumkII_mp3_bird_sound/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_multitasking_simple/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_retro_PDP8_Focal/src/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/example_soft_i2c/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/examples/msp432/hw_test_edumkII/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/interface/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp32/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/include/platform/msp432/CMSIS/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/FatFs/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/driver/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/libmad/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/BBB/gpio_module/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/esp8266/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/platform/msp432/DSP/Include/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/task/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/uGUI/fonts/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/src/util/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2bin/"/>
+						<entry kind="includePath" name="/home/student/git/YAHAL/tools/png2cpp/"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_esp8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-g++.a"/>
+					</resource>
+				</language>
+				<language id="org.eclipse.cdt.core.gcc">
+					<resource project-relative-path="">
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/lwip2/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/tools/sdk/libc/xtensa-lx106-elf/include"/>
+						<entry kind="includePath" name="build/core"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/platform/esp8266"/>
+						<entry kind="includePath" name="~/git/YAHAL/include/interface"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/driver"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/task"/>
+						<entry kind="includePath" name="~/git/YAHAL/src/util"/>
+						<entry kind="includePath" name="/home/student/mct_workspace/ArduinoJson-6.x/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/cores/esp8266"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/variants/generic"/>
+						<entry kind="includePath" name="build"/>
+						<entry kind="includePath" name="."/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WebServer/src/detail"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266WiFi/src/include"/>
+						<entry kind="includePath" name="/home/student/.arduino15/packages/esp8266/hardware/esp8266/3.0.0/libraries/ESP8266mDNS/src"/>
+						<entry kind="macro" name="ARDUINO" value="10605"/>
+						<entry kind="macro" name="ARDUINO_ARCH_ESP8266" value="1"/>
+						<entry kind="macro" name="ARDUINO_BOARD" value="&quot;ESP8266_GENERIC&quot;"/>
+						<entry kind="macro" name="ARDUINO_ESP8266_GENERIC" value="1"/>
+						<entry kind="macro" name="ESP8266" value="1"/>
+						<entry kind="macro" name="FLASHMODE_DOUT" value="1"/>
+						<entry kind="macro" name="F_CPU" value="80000000L"/>
+						<entry kind="macro" name="LWIP_FEATURES" value="1"/>
+						<entry kind="macro" name="LWIP_IPV6" value="0"/>
+						<entry kind="macro" name="LWIP_OPEN_SRC" value="1"/>
+						<entry kind="macro" name="MMU_ICACHE_SIZE" value="0x8000"/>
+						<entry kind="macro" name="MMU_IRAM_SIZE" value="0x8000"/>
+						<entry kind="macro" name="NONOSDK22x_190703" value="1"/>
+						<entry kind="macro" name="TCP_MSS" value="536"/>
+						<entry kind="libraryFile" name="libx106-elf-gcc/3.0.0-newlib4.0.0-gnu23-48f7b08/bin/xtensa-lx106-elf-gcc.a"/>
+					</resource>
+				</language>
+			</provider>
+			<provider class="org.eclipse.cdt.internal.build.crossgcc.CrossGCCBuiltinSpecsDetector" console="false" env-hash="1045666103319541130" id="org.eclipse.cdt.build.crossgcc.CrossGCCBuiltinSpecsDetector" keep-relative-paths="false" name="CDT Cross GCC Built-in Compiler Settings" parameter="${COMMAND} ${FLAGS} -E -P -v -dD &quot;${INPUTS}&quot;" prefer-non-shared="true">
+				<language-scope id="org.eclipse.cdt.core.gcc"/>
+				<language-scope id="org.eclipse.cdt.core.g++"/>
+			</provider>
+			<provider-reference id="org.eclipse.cdt.managedbuilder.core.MBSLanguageSettingsProvider" ref="shared-provider"/>
+		</extension>
+	</configuration>
+</project>
