@@ -10,7 +10,7 @@ async function run(bot, message, args, discord, moment) {
 
     const _body = '{ "MODE": ' + '"' + `${mode}`+ '"' + ', "COLOR": ' + '"' + `${col}` + '"' + ' }';
     
-    fetch2('http://' + bot.cache.configs.cfg.ip + '/body', {
+    fetch2('http://' + bot.cache.configs.cfg.ip + '/post', {
     // fetch('https://ptsv2.com/t/u0yw8-1626867561/post', {
         method: 'POST',
         body:  _body
