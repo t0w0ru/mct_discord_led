@@ -41,3 +41,11 @@
 -------------------------------------------------------------------------------------------------
 - this project specifically requires "WS2812b" LEDs to work.
 - in the [main.cpp file](MSP\MCT2021_FinnDriediger\src\main.cpp), you will have to edit the value of "total_leds", to be the amount of leds on your led strips.
+
+### Usage:
+-------------------------------------------------------------------------------------------------
+- Prefix <Mode> <Color>
+- You must always specify a color(even for rainbow/cycle and disco)
+- Modes are: static, wave, disco, rainbow/cycle, pulse, gradient
+- colors are either: violet, magenta, pink, red, orange, yellow, lime, green, cyan, aqua, lblue, blue 
+  or any hex in the form <#ABCDEF>
