@@ -8,7 +8,7 @@ async function run(bot, message, args, discord, moment) {
     let mode = args[0].toUpperCase()
     let col = args[1].toUpperCase();
 
-    const _body = '{ "MODE": ' + '"' + `${mode}`+ '"' + ', "COLOR": ' + '"' + `${col}` + '"' + ' }';
+    const _body = `{ "MODE": "${mode}", "COLOR": "${col}" }`;
     
     fetch2('http://' + bot.cache.configs.cfg.ip + '/post', {
     // fetch('https://ptsv2.com/t/u0yw8-1626867561/post', {
